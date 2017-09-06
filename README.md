@@ -61,9 +61,9 @@ public class Farm {
 		sound2(new Cat());
 	}
 
-    // 매개변수 다형성
-	public static void sound2(Animal animal){
-		animal.sound();
-	}
+  // 매개변수 다형성
+  public static void sound2(Animal animal){
+  	animal.sound();
+  }
 }
 ```
