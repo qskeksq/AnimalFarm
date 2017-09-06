@@ -1,6 +1,6 @@
 # AnimalFarm
 
-### 추상메소드를 이용하여 만든 동물농장
+### 다형성을 이용해 만든 동물농장
 
 - 상속을 통한 다형성 구현의 이해
 - 매개변수를 통한 다형성의 구현
@@ -61,7 +61,7 @@ public class Farm {
 		sound2(new Cat());
 	}
 
-  // 매개변수 다형성
+    // 매개변수 다형성
 	public static void sound2(Animal animal){
 		animal.sound();
 	}
